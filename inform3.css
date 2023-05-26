@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;  
+    font-family: "Poppins", sans-serif; 
+   }
+   
+   section, 
+   footer{
+       padding: 54px 0;
+   }
+   
+   .container img{
+       width: 50px;
+       height: 50px;
+   }
+   
+   .container{
+       max-width: 1400px;
+       margin: 0 auto;
+       padding: 0 5px;
+       align-items: center;
+   }
+   
+   header{
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+   }
+   
+   nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+   
+   nav ul{
+       display: flex;
+       align-items: center;
+   }
+   
+   nav ul a{
+       color: white;
+       margin: 0 10px;
+       text-transform: uppercase;
+       font-size: 14px;
+       display: block;
+   }
+   
+   nav ul a::after{
+       content: "";
+       background-color: rgb(72, 0, 139);
+       height: 3px;
+       width: 0%;
+       display: block;
+       margin: 0 auto;
+       transition: 0.3s;
+   }
+   
+   nav ul a:hover::after{
+       width: 100%;
+   }
+   
+   .banner{
+      display: flex;
+      justify-content: center;
+   }
+   
+   .banner .banner-text{
+       margin-top: 1%;
+       text-align: center;
+       padding: 0 90px;
+   }
+   
+   .banner .banner-text h1{
+       font-size: 80px;
+       padding: 2%;
+   }
+   
+   .banner .banner-text p{
+      font-size: 23px;
+      color: rgb(230, 230, 230);
+      font-weight: lighter; 
+      padding: 2%;
+      padding-bottom: 6%;
+   }
+   
+   /*----------------------------------------------CONTEUDO----------------------------------------------------------*/
+   
+   .resumo{
+       margin-left: 40px;
+       margin-right: 40px;
+   }
+   
+   .resumo .inter-titulo h3{
+       color: gray;
+       font-size: 40px;
+       font-family: 'Roboto', sans-serif;
+   }
+   
+   .resumo .conteudo{
+       display: flex;
+       align-items: center;
+   }
+   
+   /* .resumo .imagem{
+       width: 50%;
+   }
+   
+   .resumo .imagem img{
+       padding-left: 70px;
+   } */
+   
+   .resumo .texto{
+       margin-top: 20px;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width: 100%;
+   }
+   
+   .resumo .texto p{
+       font-size: 22px;
+       text-align: justify;
+       font-family: 'Roboto', sans-serif;
+   }
+   
+   hr{
+       margin-right: 1%;
+       margin-left: 1%;
+   }
+   
+   .referencias{
+       margin-top: 2%;
+       font-family: 'Roboto', sans-serif;
+   }
+   
+   .referencias h3{
+       font-family: 'Roboto', sans-serif;
+   }
+   
+   .referencias p{
+       font-family: 'Roboto', sans-serif;
+   }
+   
+   .imagem{
+       display: flex;
+       height: 600px;
+       margin-top: -7%;
+   }
+   
+   .imagem1{
+       width: 40%;
+       margin-left: 8%;
+   }
+   
+   .imagem2{
+       width: 40%;
+       margin-left: 4%;
+   }
+   
+   .imagem1 img{
+       width: 100%;
+       height: 100%;
+   }
+   
+   .imagem2 img{
+       width: 100%;
+       height: 100%; 
+   }
+   
+   /*--------------------------------------------RODA PÉ-------------------------------------------------------*/
+   .pe{
+       background: linear-gradient( #9F66FF, rgb(89, 1, 172));
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       color: white;
+       padding: 10px;
+       margin-top: 10%;
+       position: absolute;
+       width: 100%;
+       height: 15%;
+       border-top-left-radius: 180px;
+   }
+   
+   /* .pe .social{
+       margin-bottom: 15px;
+   }
+   
+   .pe .social i{
+       font-size: 22px;
+       border: 2px solid white;
+       padding: 10px;
+       border-radius: 50%;
+       margin: 5px;
+       cursor: pointer;
+   } */
+   
+   .pe .links{
+       display: flex;
+       flex-wrap: wrap;
+       list-style: none;
+   }
+   
+   .pe .links a{
+       color: white;
+       text-decoration: none;
+       margin: 0 15px;
+       font-size: 15px;
+   }
+   
+   .pe .links a::after{
+       content: "";
+       background-color: white;
+       height: 3px;
+       width: 0%;
+       display: block;
+       margin: 0 auto;
+       transition: 0.3s;
+   }
+   .pe .links a:hover::after{
+       width: 100%;
+   }
+   
+   .pe .copyright{
+       font-size: 12px;
+       margin-top: 25px;
+   }
+   /*--------------------------------------------RODA PÉ-------------------------------------------------------*/
+   
+   
